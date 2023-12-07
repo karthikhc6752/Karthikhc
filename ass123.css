@@ -1,0 +1,40 @@
+
+
+.navbar{
+   
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: powderblue;
+    
+}
+
+.logoblock{
+ 
+    height: 75px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.menublock{
+    height: 75px;
+    width: 700px;
+}
+
+ul{
+    list-style-type: none;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logoblock>img{
+    height: 50px;
+    width: 180px;
+    mix-blend-mode: multiply;
+}
+

@@ -1,0 +1,39 @@
+Nav{
+    border: 2px solid black;
+    height: 100px;
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Phone display */
+@media screen and (min-width:0px) and (max-width1:400px) {
+    nav{
+        background-color: green;
+    }
+    
+}
+/* Tablet Display */
+@media screen and (min-width:401px) and (max-width:600px){
+    nav{
+        background-color: powderblue;
+    }
+    
+}
+/* Laptop Display */
+@media screen and (min-width:601px)and (max-width:700px){
+    nav{
+        background-color: red;
+    }
+}
+
+/* Televison Display */
+@media screen and (min-width-701px) {
+    nav{
+        background-color: blue;
+    }
+    
+}
+image{
+    width: 200px;
+}
